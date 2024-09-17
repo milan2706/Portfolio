@@ -147,7 +147,7 @@
   }
 
   .contact-header-right h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .contact-header-right p {
@@ -173,6 +173,34 @@
   .copyright-bottom .logo-2{
     margin-top: -15%;
   }
+  .logo {
+    font-size: 20px;
+  }
+  .copyright-bottom .logo-2 {
+    font-size: 25px;
+  }
+  nav {
+    padding: 11px 5%;
+  }
+  .copyright-bottom .social-icons-2 i {
+    font-size: 15px;
+  }
+  .header-container .contact-header-left {
+    border: 10px solid #fefefe;
+  }
+  .contact-header-right .social-icons i{
+    font-size: 15px;
+  }
+  .btn-group .btn{
+    margin: -6px 0px;
+  }
+  #element-1 {
+    font-size: 10px;
+  }
+  .contact-header-right h2 {
+    font-size: 10px;
+  }
+
 }
 
 @media only screen and (max-width: 599px) {
@@ -190,15 +218,6 @@
     font-size: 25px;
   }
 
-  .contact-header-right h2 {
-    font-size: 15px;
-  }
-
-  #element-1 {
-    font-size: 15px;
-  }
-
-
   .contact-header-right {
     margin-top: 5%;
     margin-left: 5%;
@@ -213,18 +232,9 @@
     width: 100%;
     margin: 2px 0 0 0;
   }
-  .header-container .contact-header-left {
-    border: 10px solid #fefefe;
-  }
-  .contact-header-right .social-icons i{
-    font-size: 20px;
-  }
-  .logo {
-    font-size: 20px;
-  }
-  .copyright-bottom .social-icons-2 i {
-    font-size: 20px;
-  }
+ 
+
+  
 }
 
 @media only screen and (max-width: 480px) {
@@ -242,13 +252,17 @@
 
   .copyright-bottom p {
     margin-top: 28%;
-    font-size: 15px;
+    font-size: 10px;
   }
-
-  
 
   .contact-header-right {
     margin-right: 0;
+  }
+  .contact-left p {
+    font-size: 15px;
+  }
+  .contact-left p i{
+    font-size: 15px;
   }
 
   
@@ -280,10 +294,6 @@
     font-size: 10px;
   }
 
-  nav {
-    padding: 11px 5%;
-  }
-
   .header-container .contact-header-left {
     border: 5px solid #fefefe;
   }
@@ -293,6 +303,7 @@
   .tab-titles p{
     font-size: 15px;
   }
+
 }
 
 
