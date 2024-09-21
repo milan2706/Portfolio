@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc513b0fb7.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #040f74;
+        }
+
+        nav .fa-solid {
+            display: block;
+        }
+
+        nav ul {
+            background: #2b2a2a;
+            position: fixed;
+            top: 0;
+            right: -210px;
+            width: 180px;
+            height: 95vh;
+            margin: 15px;
+            opacity: 0.15px;
+            border-radius: 0 30px 30px 0;
+            padding-top: 50px;
+            z-index: 2;
+            transition: right 0.4s;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 25px;
+        }
+
+        nav ul li a {
+            display: flex;
+            gap: 10px;
+        }
+
+        nav ul li:hover a {
+            background-color: #030303;
+            color: #00eaff;
+            letter-spacing: 1px;
+        }
+
+        nav ul .icn {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            cursor: pointer;
+        }
+
+        nav ul {
+            padding-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!--------Project Section Start----------------------->
+    <div id="projects">
+        <nav id="navbar">
+            <a href="#" class="logo"><span>Mr. </span>Milan</a>
+            <ul id="sidemenu">
+                <li><a href="#header"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user-tie"></i>About</a></li>
+                <li><a href="#services"><i class="fa-solid fa-gear"></i>Known</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                <i class="icn fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i id="mbtn" class="icn fa-solid fa-house" onclick="openmenu()"></i>
+        </nav>
+        <div class="projects-container">
+            <!-- <h1 class="sub-title">Projects</h1> -->
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('app')">App</p>
+                <p class="tab-links" onclick="opentab('game')">Game</p>
+                <p class="tab-links" onclick="opentab('webgis')">Web GIS</p>
+            </div>
+            <div class="tab-contents active-tab" id="app">
+                <div class="projects-list">
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Social Media App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Music App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="image/bgp1.png">
+                        <div class="projects-layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app contacts you the talented people around the world. Download it from play staore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-contents active-tab" id="game">
+
+            </div>
+            <div class="tab-contents active-tab" id="webgis">
+
+            </div>
+        </div>
+        <div class="copyright-bottom">
+            <a href="#" class="logo-2"><span>Mr. </span>Milan</a>
+            <div class="social-icons-2">
+                <a href="https://www.facebook.com/milandas.das.796?mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/milandas2706?igsh=NGdnNHlpaGRmbXN1"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/milan-das-a7b557232"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/milan2706"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>Copyright © 2024 by Mr.Milan. All Rights Reserved.</p>
+        </div>
+    </div>
+    <!--------Project Section Start----------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <Script>
+        function openmenu() {
+            document.getElementById('sidemenu').style.right = '0';
+        }
+        function closemenu() {
+            document.getElementById('sidemenu').style.right = '-200px';
+        }
+        var mbtn = document.querySelector('#mbtn')
+        var sidemenu = document.querySelector('#sidemenu')
+
+        document.addEventListener('click', e => {
+            if (!sidemenu.contains(e.target) && e.target !== mbtn) {
+                document.getElementById('sidemenu').style.right = '-200px';
+            }
+        })
+    </Script>
+</body>
+
+</html>
