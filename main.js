@@ -1,4 +1,3 @@
-
 //-------Background Mouse Move Animation-------//
 document.addEventListener('DOMContentLoaded', () => {
     const interBubble = document.getElementById("intractID")
@@ -36,7 +35,7 @@ window.addEventListener("load", () => {
     loader.classList.add("loader--hidden");
 
     loader.addEventListener("transitionend", () => {
-        document.body.removeChild(document.querySelector(".loader"));
+        // document.body.removeChild(document.querySelector(".loader"));
     });
 });
 
@@ -135,3 +134,24 @@ counters.forEach(counter => {
     counterUpdate();
 })
 //------------skill circle progress bar-End---------------- //
+
+
+// Google Sheet link script -start//
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwmYXWwusX9SPb77NdYMUXqqpvcOJdJnhEs7SaQX2HkNIog2MTUjspBLXYlB8BbJ8CQ/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById('msg')
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            msg.innerHTML = "Your Credential Successfully Submitted !"
+            setTimeout(function () {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+})
+// Google Sheet link script -start//
