@@ -30,22 +30,22 @@
 
 
 //--------------Preloader-----------//
-window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader")
+// window.addEventListener("load", () => {
+//     const loader = document.querySelector(".loader")
 
-    loader.classList.add("loader--hidden");
+//     loader.classList.add("loader--hidden");
 
-    loader.addEventListener("transitionend", () => {
-        // document.body.removeChild(document.querySelector(".loader"));
-    });
-});
+//     loader.addEventListener("transitionend", () => {
+//         // document.body.removeChild(document.querySelector(".loader"));
+//     });
+// });
 
-var counter = 0;
-var interval = setInterval(function () {
-    counter++;
-    document.querySelector(".counterloader").innerHTML = counter + "%";
-    if (counter === 100) {
-        clearInterval(interval);
-    }
-}, 1);
+// var counter = 0;
+// var interval = setInterval(function () {
+//     counter++;
+//     document.querySelector(".counterloader").innerHTML = counter + "%";
+//     if (counter === 100) {
+//         clearInterval(interval);
+//     }
+// }, 1);
 //--------------Preloader-----------//
